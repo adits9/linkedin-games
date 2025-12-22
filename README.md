@@ -5,7 +5,7 @@ A complete solution to scrape LinkedIn's daily Mini Sudoku puzzle (6x6 grid) and
 ## 🎯 Features
 
 - **Daily Scraping**: Automatically scrapes LinkedIn's Mini Sudoku puzzle
-- **6x6 Grid**: Proper Mini Sudoku format with 2x3 boxes using numbers 1-6
+- **2x3 Grid**: Proper Mini Sudoku format with 2x3 boxes using numbers 1-6
 - **Local Gameplay**: Beautiful, responsive web interface to play the puzzle
 - **Full Game Features**: 
   - Timer to track solving time
