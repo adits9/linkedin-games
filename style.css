@@ -45,11 +45,11 @@ header h1 {
 }
 
 .container {
-    background: #f5f3f0;
+    background: transparent;
     border-radius: 12px;
     padding: 40px 30px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-    max-width: 700px;
+    box-shadow: none;
+    max-width: 1200px;
     width: 100%;
     text-align: center;
     margin: 20px;
@@ -402,7 +402,7 @@ footer {
     border: 2px solid #6b5344;
     background: #6b5344;
     width: 100%;
-    max-width: 450px;
+    max-width: 550px;
     aspect-ratio: 1;
     border-radius: 8px;
     overflow: hidden;
