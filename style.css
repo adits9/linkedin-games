@@ -47,12 +47,12 @@ header h1 {
 .container {
     background: transparent;
     border-radius: 12px;
-    padding: 40px 30px;
+    padding: 20px 30px;
     box-shadow: none;
     max-width: 1200px;
     width: 100%;
     text-align: center;
-    margin: 20px;
+    margin: 0;
 }
 
 .game-selector {
@@ -402,7 +402,7 @@ footer {
     border: 2px solid #6b5344;
     background: #6b5344;
     width: 100%;
-    max-width: 550px;
+    max-width: 700px;
     aspect-ratio: 1;
     border-radius: 8px;
     overflow: hidden;
@@ -416,7 +416,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: clamp(1.5em, 3vw, 2.2em);
+    font-size: clamp(2em, 4vw, 3em);
     cursor: pointer;
     transition: all 0.15s;
     aspect-ratio: 1;
@@ -475,7 +475,7 @@ footer {
 .queens-content-wrapper {
     display: flex;
     gap: 20px;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     margin: 20px 0;
 }
@@ -483,18 +483,18 @@ footer {
 .queens-rules {
     background: #e8e1d9;
     border-left: 4px solid #6b5344;
-    padding: 18px;
+    padding: 14px;
     border-radius: 8px;
     border: none;
-    max-width: 280px;
+    max-width: 220px;
     text-align: left;
 }
 
 .queens-rules p {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     color: #6b5344;
     font-weight: 400;
-    font-size: 0.95em;
+    font-size: 0.85em;
 }
 
 .queens-rules ul {
@@ -504,10 +504,10 @@ footer {
 }
 
 .queens-rules li {
-    padding: 7px 0;
+    padding: 5px 0;
     color: #333;
-    line-height: 1.5;
-    font-size: 0.85em;
+    line-height: 1.4;
+    font-size: 0.75em;
 }
 
 .queens-rules li strong {
